@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 'Sample Post #2'
+title: Leaf post
 date: 2018-02-19T00:46:54.386Z
 thumbnail: /uploads/image.jpg
 rating: '5'
