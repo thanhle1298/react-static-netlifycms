@@ -1,0 +1,34 @@
+li, a{
+    color: gray;
+    font-size: 14px;
+}
+ul, li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.btn_sub{
+    background: #90bf39;
+    border: none;
+    margin-top: 10px;
+    border-radius: 25px;
+    color: #fff;
+    text-shadow: none;
+    padding: 5px 30px;
+    height: 34px;
+}
+.right_sidebar{
+    background: #f6f6f6;
+    padding: 15px;
+}
+.sidebartitle{
+    text-transform: uppercase;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 15px;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+}
+.form-group{
+    color: gray;
+}

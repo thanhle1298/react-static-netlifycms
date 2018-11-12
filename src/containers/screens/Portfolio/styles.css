@@ -1,0 +1,29 @@
+.catg{
+    width: 100%;
+    clear: both;
+}
+.image_wrapper{
+    width: 100%;
+    border-radius: 100%;
+    margin: 15px 0;
+    position: relative;
+    overflow: hidden;
+    border: 12px solid lightpink;
+}
+.img_item{
+    width: 100%;
+    border-radius: 100%;
+}
+.img_item:hover{
+    transform: scale(1.1);
+    transition: transform 300ms ease;
+    z-index: 1;
+}
+.btn_catg{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+.btn_item{
+    width: 30%;
+}

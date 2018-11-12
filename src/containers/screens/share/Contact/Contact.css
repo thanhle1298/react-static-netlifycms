@@ -1,0 +1,10 @@
+.ui.button:focus {
+    background-color: #FFF;
+    color:#8EC349;
+}
+.ui.button {
+    background-color: #8EC349;
+    color: #FFF;
+    border-radius: 20px;
+    padding: auto 30px;
+}

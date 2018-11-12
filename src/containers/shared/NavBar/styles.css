@@ -1,0 +1,101 @@
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #93C33A;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #93C33A;
+}
+
+.navbar-default .navbar-nav > li > a{
+  font-size: 16px;
+  color: #423f54;
+}
+
+.navbar-toggle {
+  padding: 34px;
+  background-color: #93C33A;
+  border: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+.container-fluid {
+  background-color: #fff;
+  padding: unset;
+}
+.navbar-default .navbar-toggle {
+  margin-right: unset;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+  width: 26px;
+  height: 4px;
+}
+
+.navbar-header {
+  background: #fff;
+  margin: unset;
+}
+
+.container-fluid > .navbar-header {
+  margin-left: unset;
+  margin-right: unset;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  background: #fff;
+  padding-top: 0px;
+}
+
+.navbar-toggle .collapsed{
+  color: #000
+}
+
+.logo-menu {
+  height: 75px;
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.navbar-brand {
+  padding: 2px 0px;
+  margin-left: 15px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  margin: unset;
+}
+@media (min-width: 768px) {
+  .navbar > .container-fluid .navbar-brand{
+    margin-left: 15px;
+  }
+  .nav > li > a{
+    padding: 15px 20px;
+  }
+  .navbar {
+    padding-top: 0;
+    height: 90px;
+  }
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    padding-top: 17px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 964px){
+  .nav > li > a{
+    padding: 15px 12px;
+  }
+  .navbar-default .navbar-nav > li > a{
+    font-size: 13px;
+  }
+  .logo-menu {
+    height: 60px;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+}

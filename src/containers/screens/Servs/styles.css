@@ -1,0 +1,45 @@
+p{
+    margin: 0;
+}
+.services-content {
+  text-align: center;
+}
+.sub_content {
+  font-size: 14px;
+  text-align: justify;
+  padding: 10px 0;
+}
+.about-team {
+  text-align: left;
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #66d4de;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.text_column {
+  display: flex;
+  flex-direction: column;
+}
+.text_column > p {
+  text-align: justify;
+}
+.iwt-icon {
+  text-align: center;
+}
+.iwt-title {
+  color: #000;
+  font-size: 14px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  background: unset;
+  font-weight: normal;
+}
+.our_link {
+  padding: 10px 0;
+  text-align: justify;
+}
+.our_link > a {
+  color: #df7c2d;
+}

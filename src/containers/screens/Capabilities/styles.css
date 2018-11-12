@@ -1,0 +1,25 @@
+.our_title h2{
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 25px 0;
+    padding-bottom: 5px;
+    position: relative;
+    text-align: center;
+}
+.sub-content{
+    text-align: justify;
+    padding: 10px 0;
+    color: gray;
+}
+.img-solution{
+    text-align: center;
+}
+.jq_img{
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .jq_img{
+        width: unset;
+    }
+}
